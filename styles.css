@@ -54,11 +54,19 @@ body {
     color: #404bbf;
 }
 
-.info:hover {
+.address-info {
+    font-style: normal;
+}
+
+.info {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.info:hover {
     color: #404bbf;
 }
 
@@ -66,22 +74,26 @@ body {
     background: #2e2f42;
 }
 
-h1 {
+.title-one {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 
 .button-hero {
-    background: #4d5ae5;
+    background-color: #404BBF;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+}
+
+.button-hero:hover {
+    background-color: #404BBF;
 }
 
 h3 {
@@ -92,6 +104,12 @@ h3 {
     color: #2e2f42;
 }
 
+text-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 p {
     font-weight: 400;
     font-size: 16px;
@@ -100,13 +118,14 @@ p {
     color: #434455;
 }
 
-h2 {
+.text-two {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .section-portfolio {
@@ -120,6 +139,14 @@ h2 {
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .footer-end {
