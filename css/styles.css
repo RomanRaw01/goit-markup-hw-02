@@ -123,6 +123,10 @@ body {
     background-color: #404BBF;
 }
 
+.button-hero:focus {
+    background-color: #404BBF;
+}
+
 
 
 text-p {
