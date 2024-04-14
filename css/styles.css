@@ -33,6 +33,10 @@ a {
     text-decoration: none;
 }
 
+.page-header {
+    font-style: normal
+}
+
 button {
     cursor: pointer;
 }
