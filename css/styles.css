@@ -51,6 +51,7 @@ body {
     font-family: "Roboto", sans-serif;
     background: #fff;
     color: #434455;
+    font-style: normal;
 }
 
 .page-logo {
@@ -86,10 +87,6 @@ body {
 
 .menu-link:focus {
     color: #404bbf
-}
-
-.address-info {
-    font-style: normal;
 }
 
 .info {
