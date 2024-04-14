@@ -80,6 +80,10 @@ body {
     color: #404bbf;
 }
 
+.menu-link:focus {
+    color: #404bbf
+}
+
 .address-info {
     font-style: normal;
 }
@@ -95,6 +99,10 @@ body {
 
 .info:hover {
     color: #404bbf;
+}
+
+.info:focus {
+    color: #404bbf
 }
 
 .hero {
@@ -129,7 +137,7 @@ body {
 
 
 
-text-p {
+.text-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
